@@ -1,0 +1,15 @@
+.mainHeader {
+  display: flex;
+  justify-content: left;
+  margin-left: 80px;
+  margin-top: 220px;
+  font-size: 45px;
+}
+
+.Links {
+  display: flex;
+  justify-content: left;
+  margin-left: 80px;
+  gap: 20px;
+  font-size: 22px;
+}
