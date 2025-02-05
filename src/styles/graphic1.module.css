@@ -1,0 +1,21 @@
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.writing {
+    margin-left: 500px;
+    position: relative;
+    bottom: 450px;
+}
+.firstImage {
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.moreImages {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -80px;
+}

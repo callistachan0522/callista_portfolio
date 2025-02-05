@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from "@/styles/projects.module.css"
+import PortfolioTabs from '../components/PortfolioTabs';
 
 export default function Projects() {
     return (
@@ -9,6 +10,7 @@ export default function Projects() {
           <p>Some Projects</p>
           <Link href="/">Home</Link>
         </div>
+        <PortfolioTabs />
     </main>
       );
 }
