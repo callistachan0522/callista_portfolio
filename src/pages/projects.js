@@ -7,7 +7,6 @@ export default function Projects() {
     <main>
           <div className={styles.Header}>
           <h1>Projects Page</h1>
-          <p>Some Projects</p>
           <Link href="/">Home</Link>
         </div>
         <PortfolioTabs />
