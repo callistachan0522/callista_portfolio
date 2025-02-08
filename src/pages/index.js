@@ -22,7 +22,6 @@ export default function Home() {
           <div className={styles.Links}>
           <Link href="/about"> About </Link>
           <Link href="/projects"> My Work </Link>
-          <Link href="/graphic1">First Project</Link>
           </div>
         </main>
         <footer>

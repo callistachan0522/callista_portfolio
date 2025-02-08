@@ -3,6 +3,7 @@ import styles from './PortfolioTabs.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import Design1 from '@/pages/graphic1';
+import Design2 from '@/pages/graphic2';
 
 const PortfolioTabs = () => {
   const [activeTab, setActiveTab] = useState('uiux');
@@ -20,7 +21,8 @@ const PortfolioTabs = () => {
     ],
     graphic: [
       { id: 1, title: 'Eternal Sunshine Poster', image: '/images/image2.png', link: '/graphic1' },
-      { id: 2, title: 'SunSip Can Design', image: '/images/image2.png', link: '/graphic1' }
+      { id: 2, title: 'SunSip Can Design', image: '/images/image3.png', link: '/graphic2' },
+      { id: 3, title: 'Petal Purrfections', image: '/images/image10.png', link: '/graphic3'}
     ],
     frontend: [
       { id: 1, title: 'Frontend Project 1', image: '/images/image2.png' },
