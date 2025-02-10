@@ -22,7 +22,7 @@ const PortfolioTabs = () => {
     graphic: [
       { id: 1, title: 'Eternal Sunshine Poster', image: '/images/image2.png', link: '/graphic1' },
       { id: 2, title: 'SunSip Can Design', image: '/images/image3.png', link: '/graphic2' },
-      { id: 3, title: 'Petal Purrfections', image: '/images/image10.png', link: '/graphic3'}
+      { id: 3, title: 'Petal Purrfections', image: '/images/image10.png'}
     ],
     frontend: [
       { id: 1, title: 'Frontend Project 1', image: '/images/image2.png' },
