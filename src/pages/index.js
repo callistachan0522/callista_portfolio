@@ -20,9 +20,10 @@ export default function Home() {
           <h1 className="home">Callista Chan</h1>
           </div>
           <div className={styles.Links}>
-          <Link href="/about"> About </Link>
-          <Link href="/projects"> My Work </Link>
+          <Link className={styles.about} href="/about"> About </Link>
+          <Link className={styles.projects} href="/projects"> My Work </Link>
           </div>
+          <h2 className={styles.warning}>This Portfolio is a Work in Progress!</h2>
         </main>
         <footer>
         </footer>

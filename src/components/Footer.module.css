@@ -1,3 +1,9 @@
-.container {
+.footer {
     background-color: #AE95DA;
+    height: 100px;
+    display: flex;
+}
+
+.container {
+    
 }
