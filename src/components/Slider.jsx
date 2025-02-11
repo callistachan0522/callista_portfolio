@@ -9,7 +9,6 @@ const images = [
   "/images/image3.png",
   "/images/image10.png",
   "/images/main.png",
-  "/images/coloursinspo.png",
 ];
 
 const Slider = () => {
@@ -23,7 +22,7 @@ const Slider = () => {
         {/* Duplicate images for seamless loop */}
         {[...images, ...images].map((src, index) => (
           <div key={index} className={styles.imageWrapper}>
-            <Image src={src} alt={`Slide ${index}`} width={510} height={350} />
+            <Image src={src} alt={`Slide ${index}`} width={600} height={400} />
           </div>
         ))}
       </motion.div>
