@@ -1,0 +1,35 @@
+.sliderContainer {
+    width: 510px; /* Adjust based on image width */
+    height: 100%; /* Set a fixed height for the scroll effect */
+    overflow: hidden;
+    position: fixed; /* Fix to the right side */
+    top: 50%; /* Center vertically */
+    right: 0; /* Stick to the right */
+    margin-right: 150px;
+    transform: translateY(-50%); /* Center correctly */
+  }
+  
+  .sliderTrack {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    width: 100%;
+    animation: scroll 15s linear infinite;
+    gap: 150px;
+  }
+  
+  .imageWrapper {
+    flex-shrink: 0; /* Prevents images from shrinking */
+    width: 100%;
+    height: 200px; /* Set height to match images */
+    margin-bottom: 10px; /* Space between images */
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-50%); /* Moves half of the duplicated images */
+    }
+  }
+  

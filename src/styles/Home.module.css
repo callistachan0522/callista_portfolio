@@ -1,17 +1,24 @@
 .mainHeader {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 150px;
   margin-top: 320px;
   font-size: 45px;
   color: #AE95DA;
 }
 
+.roles {
+  font-size: 30px;
+}
+
 .Links {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 150px;
   gap: 20px;
   font-size: 27px;
-  margin-top: 5px;
+  margin-top: 25px;
 }
 
 .about {
@@ -46,7 +53,9 @@
 
 .warning {
   display: flex;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   margin-top: 50px;
+  margin-left: 150px;
+  font-size: 35px;
 }

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import styles from "@/styles/Home.module.css";
 import About from "./about";
+import Slider from "@/components/Slider";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <main>
           <div className={styles.mainHeader}>
           <h1 className="home">Callista Chan</h1>
+          <h2 className={styles.roles}>UX/UI Designer | Graphic Designer</h2>
           </div>
           <div className={styles.Links}>
           <Link className={styles.about} href="/about"> About </Link>
@@ -28,6 +30,8 @@ export default function Home() {
         <footer>
         </footer>
       </div>
+
+      <Slider />
     </>
   );
 }

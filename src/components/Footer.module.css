@@ -1,9 +1,16 @@
 .footer {
     background-color: #AE95DA;
-    height: 100px;
+    height: 140px;
     display: flex;
 }
 
-.container {
-    
+.heading {
+    font-size: 32px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.container a {
+    font-size: 25px;
+    margin-left: 50px;
 }
