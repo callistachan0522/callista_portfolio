@@ -1,8 +1,21 @@
 .title {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: -70px;
+    font-size: 40px;
 }
+
+.demo {
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    color: #AE95DA;
+}
+
+.demo:hover {
+    text-decoration: underline;
+}
+
 .main {
     font-size: 40px;
     color: #AE95DA;

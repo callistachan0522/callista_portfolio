@@ -2,10 +2,12 @@ import Link from "next/link"
 import Image from "next/image"
 import styles from '@/styles/graphic1.module.css'
 import Footer from "@/components/Footer"
+import NavBar from "@/components/NavBar"
 
 export default function Design1() {
     return (
     <>
+    <NavBar />
      <h1 className={styles.title}>Eternal Sunshine Poster</h1>
         <div className={styles.firstImage}>
             <Image src='/images/image2.png' alt="picture" width={490} height={570} />

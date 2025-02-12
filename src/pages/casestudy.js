@@ -1,10 +1,12 @@
 import Image from "next/image";
 import styles from '@/styles/casestudy.module.css';
 import Link from "next/link";
+import NavBar from "@/components/NavBar";
 
 export default function CaseStudy() {
     return (
         <>  
+        <NavBar />
             <div className={styles.container}>
             <h1 className={styles.title}>Beep</h1>
         <div className={styles.firstImage}>
@@ -16,6 +18,7 @@ export default function CaseStudy() {
             <p className={styles.role}>Role: Frontend Designer</p>
             <br/>
             <p className={styles.role}>Programs Used: React native, Expo Go, Figma</p>
+            <Link className={styles.demo} href='https://www.youtube.com/shorts/GoaUL_IReU8'>App Demo</Link>
         </div>
         <div className={styles.section2}>
             <h2 className={styles.header}>What is Beep?</h2>

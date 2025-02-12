@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import styles from './PortfolioTabs.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import Design1 from '@/pages/graphic1';
-import Design2 from '@/pages/graphic2';
 
 const PortfolioTabs = () => {
   const [activeTab, setActiveTab] = useState('uiux');
@@ -17,7 +15,9 @@ const PortfolioTabs = () => {
   const projects = {
     uiux: [
       { id: 1, title: 'Beep', image: '/images/main4.png', link: '/casestudy' },
-      { id: 2, title: 'UI/UX Project 2', image: '/images/image2.png' }
+      { id: 2, title: 'ArtFlow', image: '/images/artflow.png', link: '/graphic1'},
+      { id: 3, title: 'Lotus Springs Wellness', image: '/images/springs.png', link: '/lotussprings'},
+      { id: 4, title: 'Flick Cafe', image: '/images/cafe.png', link: '/flickcafe'}
     ],
     graphic: [
       { id: 1, title: 'Eternal Sunshine Poster', image: '/images/image2.png', link: '/graphic1' },

@@ -1,0 +1,27 @@
+.header {
+    margin-top: -20px;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    background-color: #AE95DA;
+    gap: 25px;
+    height: 110px;
+    padding: 40px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+
+.work:hover {
+    text-decoration: underline;
+}
+
+.aboutLink:hover {
+    text-decoration: underline;
+}
+  

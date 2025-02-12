@@ -1,10 +1,12 @@
 import styles from '@/styles/graphic2.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 
 export default function Design2() {
 return (
     <>
+    <NavBar />
     <h1 className={styles.title}>SunSip Can Design</h1>
     <div className={styles.firstImage}>
         <Image src='/images/image3.png' alt="picture" width={490} height={570} />
