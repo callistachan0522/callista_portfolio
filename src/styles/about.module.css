@@ -6,7 +6,26 @@
 
 .me {
     display: flex;
-    margin-top: 130px;
+    margin-top: 70px;
     margin-left: 150px;
     border-radius: 20px;
+}
+
+.aboutHeader {
+    display: flex;
+    justify-content: right;
+    margin-right: 550px;
+    font-size: 45px;
+    color: #AE95DA;
+    position: relative;
+    bottom: 675px;
+}
+
+.aboutParagraph {
+    display: flex;
+    width: 600px;
+    margin-left: 800px;
+    position: relative;
+    bottom: 600px;
+    font-size: 20px;
 }
