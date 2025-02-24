@@ -23,7 +23,7 @@ export default function Design1() {
             <Image src='/images/image8.png' alt="another photo" width={1400} height={699}/>
             <Image src='/images/image9.png' alt="another photo" width={1400} height={699}/>
         </div>
-
+        <Footer />
     </>
     )
 

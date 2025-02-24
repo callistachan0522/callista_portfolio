@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    font-size: 40px;
+}
+
+.home {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.writing {
+    margin-left: 700px;
+    position: relative;
+    bottom: 750px;
+    width: 600px;
+}

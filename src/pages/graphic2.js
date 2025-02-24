@@ -2,6 +2,7 @@ import styles from '@/styles/graphic2.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 export default function Design2() {
 return (
@@ -30,6 +31,7 @@ return (
     <div className={styles.anotherImage}>
         <Image src='/images/image11.png' alt="another photo" width={1300} height={700}/>
     </div>
+    <Footer />
 </>
 )
 

@@ -1,5 +1,15 @@
-
+import NavBar from "@/components/NavBar";
+import styles from '@/styles/lotussprings.module.css';
+import Footer from "@/components/Footer";
 
 export default function LotusSprings() {
-    <h1>Work in Progress!</h1>
+    return (
+        <>
+            <NavBar />
+            <h1 className={styles.header}>Lotus Springs Wellness</h1>
+            <h1 className={styles.progress}>This page is a work in progress!</h1>
+
+        </>
+    )
+    
 }

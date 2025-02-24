@@ -15,7 +15,7 @@ const PortfolioTabs = () => {
   const projects = {
     uiux: [
       { id: 1, title: 'Beep', image: '/images/main4.png', link: '/casestudy' },
-      { id: 2, title: 'ArtFlow', image: '/images/artflow.png', link: '/graphic1'},
+      { id: 2, title: 'ArtFlow', image: '/images/artflow.png', link: '/artflow'},
       { id: 3, title: 'Lotus Springs Wellness', image: '/images/springs.png', link: '/lotussprings'},
       { id: 4, title: 'Flick Cafe', image: '/images/cafe.png', link: '/flickcafe'}
     ],
