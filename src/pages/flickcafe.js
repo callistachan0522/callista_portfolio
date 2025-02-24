@@ -14,7 +14,7 @@ export default function FlickCafe() {
             <br/>
             <p className={styles.programs}>Programs Used: Figma, Javascript</p>
             <br/>
-        <p className={styles.blurb}>Welcome to Flick Cafe, where the timeless glamour of 1920s art deco meets a modern juxtaposition of cinema and coffee. The name “Flick” is a slang term for film, commonly used in the 1920s, evoking an era where ech reel unfolded stories that captivated hearts and ignited imaginations. Stepping into Flick Cafe is like entering a cinematic time capsule, blending seamlessly with the contemporary buzz of caffeine-fueled conversations and the soft glow of digital screens. Nestled in the heart of Burnaby, Flick Cafe is not just a coffee shop—it's a unique, nostalgic yet modern atmosphere, making it an ideal hangout spot for teens, millennials, and movie lovers of all ages. </p>
+        <p className={styles.blurb}>Flick Cafe is where the timeless glamour of 1920s art deco meets a modern juxtaposition of cinema and coffee. The name “Flick” is a slang term for film, commonly used in the 1920s, evoking an era where ech reel unfolded stories that captivated hearts and ignited imaginations. Stepping into Flick Cafe is like entering a cinematic time capsule, blending seamlessly with the contemporary buzz of caffeine-fueled conversations and the soft glow of digital screens. Nestled in the heart of Burnaby, Flick Cafe is not just a coffee shop—it's a unique, nostalgic yet modern atmosphere, making it an ideal hangout spot for teens, millennials, and movie lovers of all ages. </p>
         <br />
         <Link className={styles.demo} href='https://flick-cafe.vercel.app/'>Try it out </Link>
         </div>
