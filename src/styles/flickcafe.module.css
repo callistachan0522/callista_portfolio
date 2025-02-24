@@ -16,4 +16,41 @@
     position: relative;
     bottom: 750px;
     width: 600px;
+    font-size: 19px;;
+}
+
+.writing h2 {
+    font-size: 30px;
+    color: #AE95DA;
+
+}
+
+.programs {
+    font-size: 24px;
+}
+
+.demo {
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.demo:hover {
+    color: white;
+    background-color: #AE95DA;
+    border-color: #AE95DA;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    margin-left: 150px;
+    margin-top: -290px;
+}
+
+.screenings {
+    display: flex;
+    margin-left: 750px;
+    margin-top: -973px;
 }
