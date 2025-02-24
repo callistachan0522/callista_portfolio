@@ -18,6 +18,7 @@ export default function CaseStudy() {
             <p className={styles.role}>Role: Frontend Designer</p>
             <br/>
             <p className={styles.role}>Programs Used: React native, Expo Go, Figma</p>
+            <br/>
             <Link className={styles.demo} href='https://www.youtube.com/shorts/GoaUL_IReU8'>App Demo</Link>
         </div>
         <div className={styles.section2}>
@@ -100,6 +101,12 @@ export default function CaseStudy() {
             <h3 className={styles.brandingHeader}>Typography</h3>
             <br/>
             <p className={styles.blurb}> The Switzer font was chosen for its simplicity, clean lines, and modern aesthetic, ensuring readability and a polished appearance across various digital and print applications. Its balanced proportions and versatile design make it an excellent choice for maintaining a professional and approachable look while enhancing user experience. </p>
+        </div>
+        <div className={styles.journeymap}>
+        <h1 className={styles.header}>User Journey Map</h1>
+        <br/>
+        <br/>
+        <Image className={styles.sectionImg2} src='/images/map.png' alt="picture" width={1150} height={1030} />
         </div>
         <div className={styles.section8_4}>
             <h3 className={styles.header}>App Demo</h3>

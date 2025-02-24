@@ -6,14 +6,18 @@
 }
 
 .demo {
-    position: relative;
-    top: 30px;
-    font-size: 20px;
-    color: #AE95DA;
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .demo:hover {
-    text-decoration: underline;
+    color: white;
+    background-color: #AE95DA;
+    border-color: #AE95DA;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .main {
@@ -156,6 +160,12 @@
         bottom: 1540px;
         width: 420px;
         margin-left: 950px;
+}
+
+.journeymap {
+    position: relative;
+    bottom: 1100px;
+    margin-left: 250px;
 }
 
 .section8_4 {
