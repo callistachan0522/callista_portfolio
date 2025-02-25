@@ -6,6 +6,7 @@ import Link from "next/link";
 export default function FlickCafe() {
     return (
         <>
+        <div className={styles.container}>
         <NavBar />
         <h1 className={styles.header}>Flick Cafe</h1>
         <Image className={styles.home} src='/images/Home.png' alt="picture" width={490} height={770} />
@@ -21,6 +22,7 @@ export default function FlickCafe() {
         <div className={styles.otherImgs}>
         <Image className={styles.menu} src='/images/menu.png' alt="picture" width={490} height={970} />
         <Image className={styles.screenings} src='/images/Screenings.png' alt="picture" width={490} height={1190} />
+        </div>
         </div>
         <Footer />
         </>

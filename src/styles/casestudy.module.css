@@ -1,3 +1,7 @@
+.container {
+    background-color: black;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -192,4 +196,9 @@
 
 .blurb {
     font-size: 19px;
+}
+
+.slider {
+    position: relative;
+    top: 1000px;
 }

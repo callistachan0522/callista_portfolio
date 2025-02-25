@@ -1,3 +1,8 @@
+.container {
+    background-color: black;
+}
+
+
 .title {
     display: flex;
     justify-content: center;

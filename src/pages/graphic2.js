@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 export default function Design2() {
 return (
     <>
+    <div className={styles.container}>
     <NavBar />
     <h1 className={styles.title}>SunSip Can Design</h1>
     <div className={styles.firstImage}>
@@ -30,6 +31,7 @@ return (
     </div>
     <div className={styles.anotherImage}>
         <Image src='/images/image11.png' alt="another photo" width={1300} height={700}/>
+    </div>
     </div>
     <Footer />
 </>

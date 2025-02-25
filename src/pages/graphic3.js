@@ -7,6 +7,7 @@ import NavBar from "@/components/NavBar"
 export default function Design1() {
     return (
     <>
+    <div className={styles.container}>
     <NavBar />
      <h1 className={styles.title}>Petal Purrfections</h1>
         <div className={styles.firstImage}>
@@ -22,6 +23,7 @@ export default function Design1() {
         <div className={styles.moreImages}>
             <Image src='/images/image8.png' alt="another photo" width={1400} height={699}/>
             <Image src='/images/image9.png' alt="another photo" width={1400} height={699}/>
+        </div>
         </div>
         <Footer />
     </>

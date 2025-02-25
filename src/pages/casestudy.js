@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from '@/styles/casestudy.module.css';
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
+import ImageSlider from "@/components/ImageSlider";
 
 export default function CaseStudy() {
     return (
@@ -108,6 +109,7 @@ export default function CaseStudy() {
         <br/>
         <Image className={styles.sectionImg2} src='/images/map.png' alt="picture" width={1150} height={1030} />
         </div>
+
         <div className={styles.section8_4}>
             <h3 className={styles.header}>App Demo</h3>
             <br/>
@@ -116,6 +118,10 @@ export default function CaseStudy() {
             <source src="/images/video.mp4" type="video/mp4" />
             </video>
             <p className={styles.blurb1}>Beep was designed with a strong focus on simplicity and accessibility, ensuring users can navigate the app effortlessly. Its interface allows quick access to essential features like route planning, safety alerts, and location sharing without unnecessary complexity. By streamlining functionality, Beep ensures a seamless experience where users can confidently rely on its powerful safety tools, especially in urgent situations.</p>
+        </div>
+        <div className={styles.lofi}>
+            <h1 className={styles.header}>Hifi and Lofi Frames</h1>
+            
         </div>
             </div>
         

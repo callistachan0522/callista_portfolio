@@ -8,8 +8,7 @@ const PortfolioTabs = () => {
 
   const tabs = [
     { id: 'uiux', label: 'UI/UX Design' },
-    { id: 'graphic', label: 'Graphic Design' },
-    { id: 'frontend', label: 'Frontend Development' }
+    { id: 'graphic', label: 'Graphic Design' }
   ];
 
   const projects = {
@@ -24,10 +23,6 @@ const PortfolioTabs = () => {
       { id: 2, title: 'SunSip Can Design', image: '/images/image3.png', link: '/graphic2' },
       { id: 3, title: 'Petal Purrfections', image: '/images/image10.png', link: '/graphic3'}
     ],
-    frontend: [
-      { id: 1, title: 'Frontend Project 1', image: '/images/image2.png' },
-      { id: 2, title: 'Frontend Project 2', image: '/images/image2.png' }
-    ]
   };
 
   return (

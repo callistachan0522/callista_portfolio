@@ -31,20 +31,19 @@ export default function ImageSlider({image1, image2}) {
       <section ref={sectionRef} className="h-[200vh]">
         <div className="sticky top-0 h-screen">
           <div className="relative w-full h-full">
-            {/ Bottom Image /}
             <Image
               src={image1} // Replace with your bottom image path
               layout="fill"
               objectFit="contain"
               alt="Bottom Image"
             />
-            {/ Top Image with clip-path /}
             <Image
               src={image2} // Replace with your top image path
               layout="fill"
               objectFit="contain"
               alt="Top Image"
-              style={{ clipPath: `inset(0 0 0 ${progress 100}%)` }}
+              style={{ clipPath: `inset(0 0 ${progress * 100}% 0)` }}
+
             />
           </div>
         </div>

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export default function Projects() {
     return (
-    <main>
+    <main className={styles.container}>
         <Navbar />
           <div className={styles.Header}>
           <h1 className={styles.project}>My Work</h1>

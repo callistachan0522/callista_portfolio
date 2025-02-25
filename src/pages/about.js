@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export default function About() {
     return (
-      <div>
+      <div className={styles.container}>
         <NavBar />
         <h1 className={styles.about}>About Me!</h1>
         <Image className={styles.me} src='/images/me.jpg' alt="picture of me" width={550} height={700} />
