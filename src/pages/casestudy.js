@@ -3,12 +3,13 @@ import styles from '@/styles/casestudy.module.css';
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
 import ImageSlider from "@/components/ImageSlider";
+import Footer from "@/components/Footer";
 
 export default function CaseStudy() {
     return (
         <>  
-        <NavBar />
             <div className={styles.container}>
+            <NavBar />
             <h1 className={styles.title}>Beep</h1>
         <div className={styles.firstImage}>
             <Image src='/images/cs1.png' alt="picture" width={490} height={570} />
@@ -123,6 +124,7 @@ export default function CaseStudy() {
             <h1 className={styles.header}>Hifi and Lofi Frames</h1>
             
         </div>
+        <Footer />
             </div>
         
         </>
