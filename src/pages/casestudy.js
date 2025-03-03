@@ -42,8 +42,10 @@ export default function CaseStudy() {
             <br/>
             <p className={styles.blurb}>Beep's target audience are Women, marginalized communities, and individuals who prioritize personal safety in their daily lives, particularly when navigating urban environments, commuting alone, or traveling through unfamiliar areas.</p>
             <br/>
-            <Link href='https://docs.google.com/spreadsheets/d/1kJt4UG44dgGP3s849Wj166taCNonv4402Hu2OA-tiU0/edit?usp=sharing'>Usability Testing</Link>
-            <Link href='https://docs.google.com/spreadsheets/d/18jNe4otYjzAbPkG72CNo7rVKZwcHYIQ4pjMklCmBFEU/edit?usp=sharing'>Competitive Analysis</Link>
+            <br />
+            <br />
+            <Link className={styles.test} href='https://docs.google.com/spreadsheets/d/1kJt4UG44dgGP3s849Wj166taCNonv4402Hu2OA-tiU0/edit?usp=sharing'>Usability Testing</Link>
+            <Link className={styles.comp} href='https://docs.google.com/spreadsheets/d/18jNe4otYjzAbPkG72CNo7rVKZwcHYIQ4pjMklCmBFEU/edit?usp=sharing'>Competitive Analysis</Link>
         </div>
         <div className={styles.section5}>
             <h2 className={styles.header}>User Persona</h2>

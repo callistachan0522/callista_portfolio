@@ -73,6 +73,30 @@
     bottom: 160px;
 }
 
+.test {
+    text-decoration: underline;
+    color: #AE95DA;
+    font-size: 24px;
+    padding-right: 15px;
+}
+
+.test:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.comp {
+    text-decoration: underline;
+    color: #AE95DA;
+    font-size: 24px;
+}
+
+.comp:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+
 .section5 {
     margin-left: 250px;
     position: relative;
