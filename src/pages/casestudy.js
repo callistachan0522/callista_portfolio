@@ -41,6 +41,9 @@ export default function CaseStudy() {
         <h2 className={styles.header}>Target Audience</h2>
             <br/>
             <p className={styles.blurb}>Beep's target audience are Women, marginalized communities, and individuals who prioritize personal safety in their daily lives, particularly when navigating urban environments, commuting alone, or traveling through unfamiliar areas.</p>
+            <br/>
+            <Link href='https://docs.google.com/spreadsheets/d/1kJt4UG44dgGP3s849Wj166taCNonv4402Hu2OA-tiU0/edit?usp=sharing'>Usability Testing</Link>
+            <Link href='https://docs.google.com/spreadsheets/d/18jNe4otYjzAbPkG72CNo7rVKZwcHYIQ4pjMklCmBFEU/edit?usp=sharing'>Competitive Analysis</Link>
         </div>
         <div className={styles.section5}>
             <h2 className={styles.header}>User Persona</h2>
@@ -110,23 +113,22 @@ export default function CaseStudy() {
         <br/>
         <Image className={styles.sectionImg2} src='/images/map.png' alt="picture" width={1150} height={1030} />
         </div>
-
-        <div className={styles.section8_4}>
-            <h3 className={styles.header}>App Demo</h3>
+        <div className={styles.section8_5}>
+            <h3 className={styles.header}>Promotional Materials</h3>
             <br/>
             <br/>
-            <video autoPlay muted width="720" height="640" controls preload="none">
-            <source src="/images/video.mp4" type="video/mp4" />
-            </video>
-            <p className={styles.blurb1}>Beep was designed with a strong focus on simplicity and accessibility, ensuring users can navigate the app effortlessly. Its interface allows quick access to essential features like route planning, safety alerts, and location sharing without unnecessary complexity. By streamlining functionality, Beep ensures a seamless experience where users can confidently rely on its powerful safety tools, especially in urgent situations.</p>
+            <h2>Business Cards</h2>
+            <br/>
+            <Image className={styles.sectionImg2} src='/images/BusinessCards.png' alt="picture" width={1150} height={630} />
+            <br/>
+            <br/>
+            <h2>Brochure</h2>
+            <br/>
+            <Image className={styles.sectionImg2} src='/images/front.png' alt="picture" width={1150} height={630} />
+            <Image className={styles.sectionImg2} src='/images/back.png' alt="picture" width={1150} height={630} />
         </div>
-        <div className={styles.lofi}>
-            <h1 className={styles.header}>Hifi and Lofi Frames</h1>
-            
-        </div>
-        <Footer />
             </div>
-        
+            <Footer />
         </>
     )
 }
