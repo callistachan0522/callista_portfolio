@@ -21,6 +21,7 @@ export default function CaseStudy() {
             <br/>
             <p className={styles.role}>Programs Used: React native, Expo Go, Figma</p>
             <br/>
+            <br/>
             <Link className={styles.demo} href='https://www.youtube.com/shorts/GoaUL_IReU8'>App Demo</Link>
         </div>
         <div className={styles.section2}>
@@ -113,7 +114,25 @@ export default function CaseStudy() {
         <h1 className={styles.header}>User Journey Map</h1>
         <br/>
         <br/>
-        <Image className={styles.sectionImg2} src='/images/map.png' alt="picture" width={1150} height={1030} />
+        <iframe
+        style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+        width={1150}
+        height={650}
+        src="https://embed.figma.com/design/hOHYyAK0ldLRoEpa5FrL10/Beep-Wireframes-(Copy)?node-id=8247-3202&embed-host=share"
+        allowFullScreen
+        ></iframe>
+        </div>
+        <br/>
+        <div className={styles.lofi}>
+            <h1 className={styles.header}>Lofi and Hifi</h1>
+            <br/>
+            <iframe
+            style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} 
+            width="1150"
+            height="650"
+            src="https://embed.figma.com/design/phgqn6LgtWRHTaql3AeU0k/Beep-Wireframes-(Copy)?node-id=0-1&embed-host=share"
+            allowFullScreen
+            ></iframe>
         </div>
         <div className={styles.section8_5}>
             <h3 className={styles.header}>Promotional Materials</h3>

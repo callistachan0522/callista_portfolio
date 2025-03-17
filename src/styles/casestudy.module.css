@@ -191,14 +191,17 @@
 }
 
 .journeymap {
-    position: relative;
-    bottom: 1100px;
+    margin-top: -1000px;
+    margin-left: 250px;
+}
+
+.lofi {
     margin-left: 250px;
 }
 
 .section8_5 {
     margin-left: 250px;
-    margin-top: -1000px;
+    margin-top: 50px;;
 }
 
 .blurb1 {
