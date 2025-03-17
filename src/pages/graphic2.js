@@ -30,7 +30,7 @@ return (
         <Image src='/images/image6.png' alt="another photo" width={350} height={490}/>
     </div>
     <div className={styles.anotherImage}>
-        <Image src='/images/image11.png' alt="another photo" width={1300} height={700}/>
+        <Image src='/images/image11.png' alt="another photo" width={1300} height={800}/>
     </div>
     </div>
     <Footer />

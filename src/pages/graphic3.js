@@ -16,13 +16,12 @@ export default function Design1() {
         <div className={styles.writing}>
             <h2>Logo and Poster Design Project</h2>
             <br/>
-            <p>Programs Used: Illustrator</p>
+            <p>Programs Used: Illustrator, Photoshop</p>
             <br/>
             <p>Petal Purrfections is a flower shop where customers can shop for fresh blooms while enjoying the playful company of cats. The logo captures the shop's lively and whimsical spirit, featuring a cat playfully reaching for a flower—a perfect blend of fun and floral charm. The poster designs mirror this playful atmosphere, creatively showcasing the shop’s unique concept while effectively promoting its offerings.</p>
         </div>
         <div className={styles.moreImages}>
             <Image src='/images/image8.png' alt="another photo" width={1400} height={699}/>
-            <Image src='/images/image9.png' alt="another photo" width={1400} height={699}/>
         </div>
         </div>
         <Footer />

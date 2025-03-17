@@ -26,7 +26,6 @@ export default function Home() {
           <Link className={styles.about} href="/about"> About </Link>
           <Link className={styles.projects} href="/projects"> My Work </Link>
           </div>
-          <h2 className={styles.warning}>This Portfolio is a Work in Progress!</h2>
         </main>
         <footer>
         </footer>
