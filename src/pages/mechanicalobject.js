@@ -17,7 +17,7 @@ export default function MechanicalObject() {
             <br/>
             <p>Programs Used: Illustrator</p>
             <br/>
-            <p>This vector illustration was crafted in Adobe Illustrator, showcasing a retro piece of audio technology with a sleek, minimalist aesthetic. The design captures intricate details like the cassette tape, playback controls, peak level meters, and various dials, all rendered with smooth gradients and subtle shading to enhance realism. The soft reflection beneath the deck adds depth, making it feel like a tangible object. This artwork is a tribute to classic audio equipment, blending nostalgia with modern digital precision.</p>
+            <p>This vector illustration was crafted in Adobe Illustrator, showcasing a retro piece of audio technology with a sleek, minimalist aesthetic. The design captures intricate details like the cassette tape, playback controls, peak level meters, and various dials, all rendered with smooth gradients and subtle shading to enhance realism. The soft reflection beneath the deck adds depth, making it feel like a tangible object.</p>
         </div>
         <Footer />
         </>
