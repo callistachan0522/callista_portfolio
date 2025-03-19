@@ -1,6 +1,7 @@
 import NavBar from "@/components/NavBar";
 import styles from '@/styles/lotussprings.module.css';
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function LotusSprings() {
     return (

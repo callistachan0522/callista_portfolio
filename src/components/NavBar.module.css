@@ -15,13 +15,19 @@
 
 .home:hover {
     text-decoration: underline;
+    transition: all 0.3s ease;
+    font-size: 28px;
 }
 
 .work:hover {
     text-decoration: underline;
+    transition: all 0.3s ease;
+    font-size: 28px;
 }
 
 .aboutLink:hover {
     text-decoration: underline;
+    transition: all 0.3s ease;
+    font-size: 28px;
 }
   
