@@ -13,7 +13,19 @@
 .writing {
     width: 700px;
     display: flex;
-    margin-left: 900px;
+    margin-left: 770px;
     flex-direction: column;
-    margin-top: 100px;
+   position: relative;
+   bottom: 300px;
+}
+
+.firstImage {
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-left: 250px;
+}
+
+.moreImages {
+    margin-left: 150px;
 }

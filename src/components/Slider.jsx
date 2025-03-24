@@ -22,7 +22,7 @@ const Slider = () => {
         {/* Duplicate images for seamless loop */}
         {[...images, ...images].map((src, index) => (
           <div key={index} className={styles.imageWrapper}>
-            <Image src={src} alt={`Slide ${index}`} width={600} height={500} />
+            <Image src={src} alt={`Slide ${index}`} width={600} height={600} />
           </div>
         ))}
       </motion.div>
