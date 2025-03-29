@@ -3,6 +3,7 @@ import Image from 'next/image';
 import NavBar from '@/components/NavBar';
 import styles from '@/styles/about.module.css';
 import Footer from '@/components/Footer';
+import WordSearch from '@/components/WordSearch';
 
 export default function About() {
     return (
@@ -19,6 +20,7 @@ Since then, my enthusiasm has grown into a deeper appreciation for UX/UI and Gra
 <br/>
 <br/>
 What excites me most is the entire creative journey—transforming initial concepts and rough sketches into polished, impactful designs that truly connect with users. My goal as a designer is always to blend beauty with functionality, ensuring every interaction is meaningful, intuitive, and memorable. </p>
+<WordSearch />
         <Footer />
       </div>
     );
